@@ -1,8 +1,8 @@
 package strategies;
 
-public class WednesdayAndTuesdayCarBehaviorStrategy implements CarBehavior {
+public class WednesdayCarBehaviorStrategy implements CarBehavior {
     @Override
     public void drive() {
-        System.out.println("Uso de dias MIERCOLES Y JUEVES para Offroad ⛰");
+        System.out.println("Uso de dia MIERCOLES para Offroad ⛰");
     }
 }

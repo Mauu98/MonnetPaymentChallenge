@@ -3,16 +3,19 @@ import model.Car;
 import model.DaysEnum;
 import strategies.CarBehavior;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
         CarBehaviorFactory carBehaviorFactory = new CarBehaviorFactory();
         Car car = new Car();
 
-        for(DaysEnum daysEnum : DaysEnum.values()){
-            CarBehavior behavior = carBehaviorFactory.getBehaviorForDay(daysEnum); //Aca itero para mostrar todos los comportamientos dependiendo del dia
-            car.setCarBehavior(behavior);
-            car.drive();
-        }
+        Arrays.stream(DaysEnum.values())
+                .forEach(day -> { //Aca itero para mostrar todos los comportamientos dependiendo del dia
+                    CarBehavior behavior = carBehaviorFactory.getBehaviorForDay(day);
+                    car.setCarBehavior(behavior);
+                    car.drive();
+                });
     }
 }

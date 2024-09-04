@@ -4,8 +4,9 @@ import model.DaysEnum;
 import strategies.CarBehavior;
 import strategies.FridayCarBehaviorStrategy;
 import strategies.MondayCarBehaviorStrategy;
+import strategies.ThursdayCarBehaviorStrategy;
 import strategies.TuesdayCarBehaviorStrategy;
-import strategies.WednesdayAndTuesdayCarBehaviorStrategy;
+import strategies.WednesdayCarBehaviorStrategy;
 
 import java.util.Map;
 
@@ -14,7 +15,8 @@ public class CarBehaviorFactory {
     Map<DaysEnum, CarBehavior> carBehaviorMap = Map.of(
             DaysEnum.LUNES, new MondayCarBehaviorStrategy(),
             DaysEnum.MARTES, new TuesdayCarBehaviorStrategy(),
-            DaysEnum.MIERCOLES_JUEVES, new WednesdayAndTuesdayCarBehaviorStrategy(),
+            DaysEnum.MIERCOLES, new WednesdayCarBehaviorStrategy(),
+            DaysEnum.JUEVES, new ThursdayCarBehaviorStrategy(),
             DaysEnum.VIERNES, new FridayCarBehaviorStrategy()
     );
 

@@ -3,6 +3,7 @@ package model;
 public enum DaysEnum {
     LUNES,
     MARTES,
-    MIERCOLES_JUEVES,
+    MIERCOLES,
+    JUEVES,
     VIERNES
 }
