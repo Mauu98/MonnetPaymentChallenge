@@ -14,7 +14,7 @@ public class FireGunsCarDecorator extends CarDecorator {
         activateFireGuns();
     }
 
-    public void activateFireGuns() {
+    private void activateFireGuns() {
         System.out.println("Armas de fuego activadas! 🔫");
     }
 }

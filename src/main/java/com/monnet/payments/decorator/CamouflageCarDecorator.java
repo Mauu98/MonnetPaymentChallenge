@@ -14,7 +14,7 @@ public class CamouflageCarDecorator extends CarDecorator {
         activateCamouflage();
     }
 
-    public void activateCamouflage() {
+    private void activateCamouflage() {
         System.out.println("Camuflaje activado! 🕵️‍♂️");
     }
 }
