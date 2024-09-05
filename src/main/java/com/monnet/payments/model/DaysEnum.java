@@ -1,4 +1,4 @@
-package model;
+package com.monnet.payments.model;
 
 public enum DaysEnum {
     LUNES,

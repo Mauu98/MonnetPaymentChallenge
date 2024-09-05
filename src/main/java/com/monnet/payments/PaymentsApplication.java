@@ -1,13 +1,13 @@
 package com.monnet.payments;
 
-import decorator.CamouflageCarDecorator;
-import decorator.FireGunsCarDecorator;
-import factory.CarBehaviorFactory;
-import model.Car;
-import model.DaysEnum;
+import com.monnet.payments.decorator.CamouflageCarDecorator;
+import com.monnet.payments.decorator.FireGunsCarDecorator;
+import com.monnet.payments.factory.CarBehaviorFactory;
+import com.monnet.payments.model.Car;
+import com.monnet.payments.model.DaysEnum;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import strategies.CarBehavior;
+import com.monnet.payments.strategies.CarBehavior;
 
 import java.util.Arrays;
 

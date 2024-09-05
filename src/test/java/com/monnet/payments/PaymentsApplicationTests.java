@@ -1,8 +1,8 @@
 package com.monnet.payments;
 
-import factory.CarBehaviorFactory;
-import model.Car;
-import model.DaysEnum;
+import com.monnet.payments.factory.CarBehaviorFactory;
+import com.monnet.payments.model.Car;
+import com.monnet.payments.model.DaysEnum;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -11,7 +11,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.boot.test.context.SpringBootTest;
-import strategies.CarBehavior;
+import com.monnet.payments.strategies.CarBehavior;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;

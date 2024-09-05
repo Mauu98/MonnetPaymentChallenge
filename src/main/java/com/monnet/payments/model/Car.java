@@ -1,7 +1,7 @@
-package model;
+package com.monnet.payments.model;
 
 import lombok.Data;
-import strategies.CarBehavior;
+import com.monnet.payments.strategies.CarBehavior;
 
 @Data
 public class Car {

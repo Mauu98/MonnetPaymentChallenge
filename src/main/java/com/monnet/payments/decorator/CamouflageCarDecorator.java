@@ -1,6 +1,6 @@
-package decorator;
+package com.monnet.payments.decorator;
 
-import strategies.CarBehavior;
+import com.monnet.payments.strategies.CarBehavior;
 
 public class CamouflageCarDecorator extends CarDecorator {
 

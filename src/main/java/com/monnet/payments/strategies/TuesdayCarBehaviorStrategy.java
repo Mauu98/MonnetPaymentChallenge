@@ -1,4 +1,4 @@
-package strategies;
+package com.monnet.payments.strategies;
 
 public class TuesdayCarBehaviorStrategy implements CarBehavior {
 

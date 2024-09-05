@@ -1,12 +1,12 @@
-package factory;
+package com.monnet.payments.factory;
 
-import model.DaysEnum;
-import strategies.CarBehavior;
-import strategies.FridayCarBehaviorStrategy;
-import strategies.MondayCarBehaviorStrategy;
-import strategies.ThursdayCarBehaviorStrategy;
-import strategies.TuesdayCarBehaviorStrategy;
-import strategies.WednesdayCarBehaviorStrategy;
+import com.monnet.payments.model.DaysEnum;
+import com.monnet.payments.strategies.CarBehavior;
+import com.monnet.payments.strategies.FridayCarBehaviorStrategy;
+import com.monnet.payments.strategies.MondayCarBehaviorStrategy;
+import com.monnet.payments.strategies.ThursdayCarBehaviorStrategy;
+import com.monnet.payments.strategies.TuesdayCarBehaviorStrategy;
+import com.monnet.payments.strategies.WednesdayCarBehaviorStrategy;
 
 import java.util.Map;
 
