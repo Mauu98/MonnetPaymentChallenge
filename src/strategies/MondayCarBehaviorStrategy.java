@@ -1,6 +1,5 @@
 package strategies;
 
-import model.Car;
 
 public class MondayCarBehaviorStrategy implements CarBehavior {
 

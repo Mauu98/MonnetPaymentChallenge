@@ -1,6 +1,5 @@
 package decorator;
 
-import model.Car;
 import strategies.CarBehavior;
 
 public abstract class CarDecorator implements CarBehavior {
