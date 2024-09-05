@@ -5,5 +5,7 @@ public enum DaysEnum {
     MARTES,
     MIERCOLES,
     JUEVES,
-    VIERNES
+    VIERNES,
+    SABADO,
+    DOMINGO
 }
