@@ -18,7 +18,7 @@ public class Main {
                     CarBehavior behavior = carBehaviorFactory.getBehaviorForDay(day);
                     car.setCarBehavior(behavior);
 
-                    if (day == DaysEnum.LUNES) {
+                    if (day == DaysEnum.VIERNES) {
                         CarBehavior decoratedBehavior = new CamouflageCarDecorator(new FireGunsCarDecorator(behavior));
                         car.setCarBehavior(decoratedBehavior);
                     }
